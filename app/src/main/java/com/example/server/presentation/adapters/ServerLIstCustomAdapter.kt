@@ -1,4 +1,4 @@
-package com.example.server.adapters
+package com.example.server.presentation.adapters
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.server.R
-import com.example.server.model.Article
+import com.example.server.presentation.model.Article
 
 class ServerListCustomAdapter(var serverList: ArrayList<Article>) :
     RecyclerView.Adapter<ServerListCustomAdapter.ServerListViewHolder>() {

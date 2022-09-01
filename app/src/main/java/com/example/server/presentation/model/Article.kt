@@ -1,6 +1,4 @@
-package com.example.server.model
-
-import com.example.datares.model.Source
+package com.example.server.presentation.model
 
 data class Article(
     val source: Source,
