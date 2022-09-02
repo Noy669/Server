@@ -11,10 +11,10 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.server.R
-import com.example.server.mvvm.MainViewModel
 import com.example.server.R.drawable.custom_divider
-import com.example.server.presentation.adapters.ServerListCustomAdapter
 import com.example.server.databinding.FragmentItemListBinding
+import com.example.server.mvvm.MainViewModel
+import com.example.server.presentation.adapters.ServerListCustomAdapter
 import com.example.server.presentation.model.Article
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

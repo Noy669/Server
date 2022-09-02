@@ -1,4 +1,4 @@
-package com.example.server.di
+package com.example.server.data.di
 
 import com.example.server.data.api.ApiService
 import okhttp3.OkHttpClient
